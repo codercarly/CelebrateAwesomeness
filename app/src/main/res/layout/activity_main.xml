@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/celebrate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="I just wanted you to know..."
+        android:textSize="35sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/love"
+        android:fontFamily="cursive"
+        android:padding="10dp"
+        android:text="that you're awesome!!"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="Love, Carly"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+
+
+
+</RelativeLayout>
+
